@@ -1,8 +1,7 @@
 ---
 ## Front matter
 title: "Отчёт по лабораторной работе № 3"
-subtitle: "дисциплина: Архитектура компьютера"
-subtitle: "Языки разметки Markdown"
+subtitle: "дисциплина: Архитектура компьютера. Языки разметки Markdown"
 author: "Студент: Святашова Ксения Евгеньевна"
 
 ## Generic otions
@@ -75,15 +74,15 @@ header-includes:
 
 1. Откроем терминал(рис. [-@fig:001]):
 
-![Терминал](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-10 19-11-34.png){#fig:001 width=70%}
+![Терминал](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-10 19-11-34.png){#fig:001 width=90%}
 
 2. Перейдем в каталог курса, сформированный при выполнении лабораторной работы № 2(рис. [-@fig:002]):
 
-![Каталог курса](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-09 18-01-22.png){#fig:002 width=70%}
+![Каталог курса](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-09 18-01-22.png){#fig:002 width=90%}
 
 Обновим локальный репозиторий, скачав изменения из удаленного репозитория с помощью команды(рис. [-@fig:003]):
 
-![Обновление локального репозитория](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-09 18-02-08.png){#fig:003 width=70%}
+![Обновление локального репозитория](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-09 18-02-08.png){#fig:003 width=90%}
 
 3. Перейдем в каталог с шаблоном отчета по лабораторной работе № 3(рис. [-@fig:004]):
 
@@ -95,7 +94,7 @@ header-includes:
 
 При успешной компиляции должны сгенерироваться файлы report.pdf и report.docx. Откроем и проверим корректность полученных файлов(рис. [-@fig:006]):
 
-![Проверка корректности полученных файлов](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-09 20-13-34.png){#fig:006 width=70%}
+![Проверка корректности полученных файлов](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-09 20-13-34.png){#fig:006 width=90%}
 
 5. Удалим полученные файлы с использованием Makefile. Для этого введем команду(рис. [-@fig:007]):
 
@@ -107,21 +106,27 @@ header-includes:
 
 Внимательно изучаем структуру файла(рис. [-@fig:009]):
 
-![Структура файла](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-10 21-35-15.png){#fig:009 width=70%}
+![Структура файла](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-10 21-35-15.png){#fig:009 width=90%}
 
 7. Заполним отчет(рис. [-@fig:010]) и скомпилируем отчет с использованием Makefile(рис. [-@fig:011]):
 
-![Отчет](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-10 21-35-50.png){#fig:010 width=70%}
+![Отчет](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-10 21-35-50.png){#fig:010 width=90%}
 
-![Компиляция отчета](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-10 21-36-18.png){#fig:011 width=120%}
+![Компиляция отчета](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-10 21-36-18.png){#fig:011 width=115%}
 
 Проверим корректность полученных файлов.
 
-8. Загрузим файлы на Github
+8. Загрузим файлы на Github(рис. [-@fig:012] и рис. [-@fig:013]):
+
+![Github 0.1](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-10 22-08-26.png){#fig:012 width=90%}
+
+![Github 0.2](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-10 22-07-53.png){#fig:013 width=90%}
 
 # Задания для самостоятельной работы
 
 1. В соответствующем каталоге сделаем отчет по лабораторной работе №2 в формате Markdown:
+
+![Отчет Лаб. №2](/home/kesvyatashova/work/study/2024-2025/Архитектура компьютера/arch-pc/labs/lab03/report/image/Снимок экрана от 2024-10-11 00-11-55.png){#fig:014 width=90%}
 
 2. Загрузим файлы на github
 
